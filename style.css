@@ -1,0 +1,118 @@
+body{
+    background-image: url("banda2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*este e o código para a barra de navegação*/
+.navbar{
+    width: 100%; /* deifinir a largura*/
+    height: 50px; /* definir a altura */
+    background-color: red; /* defnir a cor da barra*/
+    display: flex; /* coloquei display flex para que os elementos sejam flexiveis*/
+    align-items: center; /* definir os itens no centro*/
+    justify-content: center; /* definir alinhar os itens mo centro da barra */
+}
+.navbar a{ /* vou definir o estilos dos links na barra */
+    color: white; /* definir a cor branca para os links*/
+    margin: 0 20px; /* definir um espaçamento entre os links*/
+    font-family: Arial, sans-serif; /* definir o estilo de texto */
+    font-size: 18px; /* definir o tamanho da fonte */
+    text-decoration: none; /* retirar o sublinhado dos links*/
+}
+ .navbar a:hover{
+    color: yellow; /* definir a cor dos links */
+ }
+
+main{/* vou definir o estilo da seção principal */
+    display: flex; /* vou colocar um display como flexivel */ 
+    align-items: center; /* vou alinhar os itens no centro vericalmente */
+    justify-content: space-between; /* vou distribui os espaços entre os itens horizontalmente */
+    font-family: Arial, sans-serif; /* vou definir a fonte */
+    font-size: 25px; /* definir o tamanho da fonte */
+    color: white; /* cor da fonte*/
+}
+
+aside{/* vou definir o estili das seções laterais*/
+    width: 250px;  /* vou definir a largura das seções */
+    height: 1040px; /* vou definir altura*/
+    padding: 20px; /* vou definir o espaçamento interno das seções*/
+    border: 1px none black; /* vou definir a borda das seções*/
+}
+
+aside.left{ /* vou definir o estilo da seções a esquerda */
+    background-color: rgba(0, 0, 0, 0.350); /* vou definir a cor de fundo da seção */
+}
+
+aside.right{ /* vou definir o estilo da seção a direita */
+    background-color: rgba(0, 0, 0, 0.350); /* definir a cor de fundo da seção da direita */
+}
+
+.footer{ /* vou defenir o estilo do footer*/
+    position: flex; /*vou dar uma posição flexivel*/
+    left: 0; /* vou posicionar a esquerda */
+    bottom: 0; /* vou posicionar embaixo*/
+    width: 100%; /* vou definir uma largura */
+    background-color: rgba(0, 0, 0, 0.582); /* vou definir um background com uma transparencia*/
+    padding: 0; /* vou dar um espaçamento no padding*/
+    font-size: 18px; /* vou definir o tamanho da fonte*/
+}
+
+.logo{ /* vou definir o estilo da logo*/
+    margin-left: 45%; /* vou definir a margen a esquerda*/
+    margin-top: 1%; /* vou definir a margin ou topo*/
+    max-height: 16em; /* vou definir altura maxima da logo*/
+    border-radius: 50%; /* vou arrendondar as bordas */
+    border: 2px solid white; /* vou definir o tipo de borda e a cor*/
+    display: inline-block; /* vou colocar um inline-block, para definir uma largura e altura na logo*/
+    align-items: center; /* vou alinhar no centro do footer*/
+}
+
+.icons{ /* vou definir o estilo dos icones*/
+ display: flex; 
+ padding: 1px;
+ align-items: center;
+ padding-left: 38%;
+}
+
+.icon1{
+    padding: 30px;
+}
+
+.icon2{
+    padding: 30px;
+}
+
+.icon3{
+    padding: 30px;
+}
+
+.infEmpressa{ /* vou definir o estilo das das informações da empresa*/
+ flex-direction: row; /* vou colocar os elementos em linha*/
+ align-items: flex-end; /* vou alinhar os elesmentos no final do footer */
+ display: flex;
+ justify-content: space-between; /* vou colocar um espaçamento entre os elementos*/
+}
+
+.txtEnd{ /* vou definir o estilo do endereço*/
+   justify-content: flex-start; /* vou colocar o endereço no começo*/
+   padding-left: 10%; /* vou dar um espaçamento da margem a esquerda*/
+   font-size: 20px; /* vou colocar o tamanho da fonte*/
+   font-family: Arial, sans-serif; /* vou definir o estilo da fonte*/
+   color: white; /* cor da fonte*/
+}
+
+.txtTel{ /* vou definir o estilo do telefone */
+    justify-content: center; /* vou colocar ele ao centro */
+    align-items: center; /* vou alinhar no centro do footer*/
+    font-size: 20px; /* vou definir o tamanho da fonte*/
+    padding-left: 0px; /* vou definir um espaçamento da margem a esquerda*/
+    color: white; /* cor da fonte*/
+}
+
+.txtEmail{ /* vou definir o estilo do email*/
+   justify-content: end; /* vou colocar no final do alinhamento dos outros elementos*/
+   padding-right: 10%; /* vou dar um espaçamento da margem a direita*/
+   font-size: 20px; /* vou definir o tamanho da fonte*/
+   color: white; /* cor da fonte*/
+}
